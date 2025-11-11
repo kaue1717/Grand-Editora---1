@@ -1,0 +1,66 @@
+/* o-reino-das-asas-de-luz.css */
+
+.imagem-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.imagem-central img {
+  width: 320px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  display: block;
+}
+
+.descricao {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  text-align: center;
+  color: #f5f5ff;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  background: linear-gradient(to bottom, #2e004f, #12002c);
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #FFC0CB;
+  margin-top: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1a0026;
+  padding: 16px 0;
+  border-top: 2px solid #4a0072;
+}
+
+.menu-item {
+  text-align: center;
+  color: #f5f5ff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.menu-item .material-icons {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.menu-item.ativo {
+  color: #ffb3ff;
+  font-weight: bold;
+}

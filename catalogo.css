@@ -1,0 +1,100 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #001f3f;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  padding: 20px;
+  background-color: #002b5b;
+  font-size: 1.2em;
+}
+
+/* Área do catálogo */
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+  margin-bottom: 80px; /* espaço pro footer fixo */
+}
+
+/* Cartão do livro */
+.livro {
+  background-color: #003366;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  width: 220px;
+  padding: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.livro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+}
+
+.livro img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.livro h2 {
+  font-size: 1.1em;
+  margin: 10px 0 5px;
+}
+
+.livro p {
+  font-size: 0.9em;
+  color: #cfd8dc;
+  margin-bottom: 10px;
+}
+
+/* Botão */
+.botao {
+  display: inline-block;
+  background-color: #5A7CA0; /* azul desgastado */
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.botao:hover {
+  background-color: #7B8D9E;
+}
+
+/* Rodapé fixo */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #002b5b;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid white;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.menu-item .material-icons {
+  font-size: 24px;
+  display: block;
+}
+
+.menu-item.ativo {
+  color: #5A7CA0;
+}

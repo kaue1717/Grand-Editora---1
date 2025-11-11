@@ -1,0 +1,32 @@
+.imagem-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.imagem-central img {
+  width: 320px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  display: block;
+}
+
+.descricao {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  text-align: center;
+  color: #f5f5ff;
+}
+
+ header h1 {
+  text-align: center;
+  font-size: 2rem;
+  color:  #4C6E81;
+  margin-top: 24px;
+  font-family: 'Poppins', sans-serif;
+}

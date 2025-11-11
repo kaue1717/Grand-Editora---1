@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(to bottom, #1a001f, #2c002e);
+  color: #f8f0f8;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Título */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #ff3366;
+}
+
+/* Imagem */
+.imagem-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.imagem-central img {
+  width: 320px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Descrição */
+.descricao {
+  max-width: 600px;
+  line-height: 1.6;
+  font-size: 1.1em;
+  margin: 0 20px 80px;
+  color: #f0d0e0;
+}
+
+/* Rodapé */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #330033;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 2px solid #ff3366;
+}
+
+/* Menu */
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f8f0f8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.material-icons {
+  font-size: 28px;
+  margin-bottom: 3px;
+}
+
+/* Hover */
+.menu-item:hover {
+  color: #ff3366;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Aba ativa */
+.menu-item.ativo {
+  color: #ff3366;
+  font-weight: bold;
+}
